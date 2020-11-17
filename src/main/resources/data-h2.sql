@@ -1,0 +1,1 @@
+insert into PERSON(id, name, age) values (1, 'anna',5);
