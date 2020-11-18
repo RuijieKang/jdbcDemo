@@ -1,6 +1,7 @@
 package com.example.jdbcDemo.dao;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -8,6 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.context.jdbc.SqlConfig;
 
+@Disabled("Enable it only when an oracle database is avaiable")
 @SpringBootTest
 public class PersonDaoImplOracleTest {
     @Autowired

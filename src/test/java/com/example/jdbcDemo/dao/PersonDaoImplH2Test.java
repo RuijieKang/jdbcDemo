@@ -1,7 +1,5 @@
 package com.example.jdbcDemo.dao;
 
-import com.example.jdbcDemo.dao.jdbc.PersonDaoImplH2;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
